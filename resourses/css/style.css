@@ -178,6 +178,7 @@ header {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    padding: 0;
 }
 .meals-showcase {
     list-style: none;
@@ -188,8 +189,17 @@ header {
 .meals-showcase li {
     width: 25%;
     height: auto;
+    overflow: hidden;
+    background-color: #000;
 }
 .meals-showcase li img {
     width: 100%;
+    opacity: 0.7;
     height: auto;
+    transform: scale(1.03);
+    transition: 0.5s;
+}
+.meals-showcase li img:hover {
+    transform: scale(1.2);
+    opacity: 1;
 }
