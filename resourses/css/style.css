@@ -172,3 +172,24 @@ header {
 .main-nav li a:active {
     border-bottom: 2px solid #e67e22;
 }
+
+/* Meals Section  */
+.section-meals {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.meals-showcase {
+    list-style: none;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+.meals-showcase li {
+    width: 25%;
+    height: auto;
+}
+.meals-showcase li img {
+    width: 100%;
+    height: auto;
+}
