@@ -26,6 +26,7 @@ header {
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(./img/hero.jpg);
     background-size: cover;
     background-position: center;
+    background-attachment: fixed;
     height: 100vh;
 }
 h1, h2, h3 {
@@ -79,6 +80,31 @@ h2:after {
     display: block;
     margin: 10px 0;
     margin-left: 30%;
+}
+
+.icon-small {
+    display: inline-block;
+    width: 30px;
+    text-align: center;
+    color: #e67e22;
+    font-size: 300px;
+    line-height: 120%;
+    vertical-align: middle;
+    margin-top: -4px;
+    margin-right: 5px;
+}
+
+/* Links  */
+a {
+    color: #e67e22;
+    text-decoration: none;
+    border-bottom: 1px solid #e67e22;
+    padding-bottom: 1px;
+    transition: 0.4s;
+}
+a:hover {
+    color: #555;
+    border-bottom: 1px solid transparent;
 }
 
 /* Buttons  */
@@ -248,8 +274,24 @@ header {
 .work-step:last-of-type {
     margin-bottom: 70px;
 }
+.btn-app {
+    border: 0;
+}
+.btn-app:hover {
+    border: 0;
+}
 .btn-app img {
     height: 50px;
     width: auto;
     margin-right: 20px;
+}
+
+/* Cities Section  */
+
+.box img {
+    width: 100%;
+    margin-bottom: 15px;
+}
+.city-feature {
+    margin-bottom: 5px;
 }
