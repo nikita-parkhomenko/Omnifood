@@ -295,3 +295,39 @@ header {
 .city-feature {
     margin-bottom: 5px;
 }
+
+/* Testimonials Section  */
+
+.section-testimonials {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../css/img/back-customers.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: #fff;
+}
+blockquote {
+    padding: 2%;
+    margin-top: 40px;
+    font-style: italic;
+    line-height: 145%;
+    position: relative;
+}
+cite {
+    font-size: 90%;
+    margin-top: 25px;
+    display: block;
+}
+blockquote:before {
+    content: '\201C';
+    display: block;
+    font-size: 400%;
+    position: absolute;
+    top: -5px;
+    left: -5px;
+}
+cite img {
+    border-radius: 50%;
+    height: 70px;
+    vertical-align: middle;
+    margin-right: 15px;
+}
