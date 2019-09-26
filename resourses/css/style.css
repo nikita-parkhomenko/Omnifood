@@ -117,7 +117,8 @@ a:hover {
     transform: translate(-50%, -50%)
 }
 .btn:link,
-.btn:visited {
+.btn:visited,
+input[type=submit] {
     display: inline-block;
     padding: 10px 30px;
     color: #fff;
@@ -127,7 +128,8 @@ a:hover {
     transition: background-color 0.6s, color 0.6s;
 }
 .btn-full:link,
-.btn-full:visited {
+.btn-full:visited,
+input[type=submit] {
     background-color: #e67e22;
     margin-right: 15px;
 }
@@ -385,4 +387,31 @@ cite img {
 }
 .plan-box ul li {
     padding: 5px 0;  
+}
+
+/* Forms section  */
+
+.contact-form {
+    width: 60%;
+    margin: 20px auto;
+}
+
+input[type=text], input[type=email],  select, textarea {
+    width: 100%;
+    padding: 7px;
+    border-radius: 3px;
+    border: 1px solid rgb(226, 226, 226);
+}
+
+textarea {
+    height: 100px;
+}
+input[type=submit] {
+    cursor: pointer;
+}
+input[type=checkbox] {
+    margin: 10px 5px 10px 0;
+}
+*:focus {
+    outline: none;
 }
