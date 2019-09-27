@@ -5,12 +5,21 @@
     box-sizing: border-box;
 }
 
-html {
+body {
     color: rgb(94, 94, 94);
     font-family: 'Lato', 'Arial', sans-serif;
     font-weight: 300;
     font-size: 20px;
     text-rendering: optimizeLegibility;
+    overflow-x: hidden;
+}
+.clearfix {zoom:1;}
+.clearfix:after {
+    content: '.';
+    clear: both;
+    display: block;
+    height: 0;
+    visibility: hidden;
 }
 
 /* Reuseble Components */
@@ -234,7 +243,6 @@ header {
 .section-steps {
     background-color: rgb(224, 224, 224);
 }
-
 .steps-box:first-child {
     text-align: right;
     padding-right: 3%;
@@ -258,7 +266,7 @@ header {
     color: #e67e22;
     border: 2px solid #e67e22;
     border-radius: 50%;
-    width: 55px;
+    width: 60px;
     height: 55px;
     text-align: center;
     padding: 5px;
@@ -352,10 +360,6 @@ cite img {
 .plan-box h3 {
     padding: 15px 15px;
     font-weight: 400;
-}
-.plan-box-div {
-    padding: 15px;
-    border-bottom: 1px solid rgb(214, 214, 214);
 }
 .plan-box div:first-child {
     padding-left: 15px;

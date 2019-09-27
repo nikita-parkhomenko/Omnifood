@@ -1,0 +1,132 @@
+@media only screen and (max-width: 1200px) {
+    .hero-text-box {
+        width: 100%;
+        padding: 0 5%;
+    }
+    .nav-container { 
+        width: 100%;
+        padding: 0 5%; 
+    }
+    .row { padding: 5% }
+    
+}
+
+@media only screen and (max-width: 1023px) {
+    body {
+        font-size: 18px;
+    }
+    .row {
+        padding: 2%;
+    }
+    section {
+        padding: 40px 0;
+    }
+    .long-copy {
+        width: 80%;
+        margin: 0 10%;
+    }
+    .steps-box:last-child, .steps-box:first-child {
+        margin-top: 10px;
+    }
+    .work-step {
+        margin-bottom: 30px;
+    }
+    .work-step:last-of-type {
+        margin-bottom: 50px;
+    }
+    .btn-app img {
+        height: 40px;
+        width: auto;
+        margin-right: 10px;
+    }
+    .app-screen {
+        width: 50%
+    }
+    .city-feature {
+        font-size: 90%;
+    }
+    .plan-box {
+        width: 100%;
+        margin-left: 0;
+    }
+    .plan-price {
+        font-size: 250%;
+    }
+    .contact-form {
+        width: 80%;
+    }
+    .footer {
+        padding: 20px 0;
+        min-height: 100px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    body {
+        font-size: 16px;
+    }
+    section {
+        padding: 20px 5px;
+    }
+    .col {
+        width: 100%;
+        margin: 0 0 4% 0;
+    }
+    .main-nav {
+        display: none;
+    }
+    .long-copy {
+        width: 100%;
+        margin: 0;
+    }
+    h1 {
+        font-size: 180%;
+    }
+    h2 {
+        font-size: 150%;
+    }
+    .features-container h3,
+    .features-container p,
+    .features-container .icon-big {
+        text-align: center;
+    }
+    .features-container .icon-big {
+        margin-left: 45%;
+    }
+    .work-step {
+        margin-bottom: 20px;
+    }
+    .work-step:last-of-type {
+        margin-bottom: 40px;
+    }
+    .steps-box:first-child {
+        text-align: center;
+    }
+    .app-screen {
+        width: 40%;
+        margin-bottom: 20px;
+    }
+    .work-step div {
+        width: 40px;
+        height: 35px;
+        padding: 5px;
+        font-size: 120%;
+        margin-right: 15px;
+    }
+    .footer-nav {
+        justify-content: center;
+    }
+    .social-links {
+        justify-content: center;
+    }
+    .footer-copy {
+        margin-top: 10px;
+    }
+
+}
+
+@media only screen and (max-width: 480px) {
+    .contact-form {
+        width: 95%;
+    }
+}
