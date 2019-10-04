@@ -167,6 +167,9 @@ header {
     left: 50%;
     transform: translate(-50%, -50%)
 }
+
+/* Navi */
+
 .nav-container {
     width: 1140px;
     margin: 0 auto;
@@ -178,6 +181,14 @@ header {
     width: auto;
     margin-top: 20px;
 }
+
+.logo-black { 
+    display: none;
+    height: 50px;
+    width: auto;
+    margin: 5px 0;
+ }
+
 .main-nav {
     display: flex;
     list-style: none;
@@ -201,6 +212,29 @@ header {
 .main-nav li a:active {
     border-bottom: 2px solid #e67e22;
 }
+
+/* Sticky Navi */
+
+.sticky {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(255, 255, 255, 0.959);
+    width: 100%;
+    box-shadow: 0px 2px 2px rgb(223, 223, 223);
+    z-index: 9999;
+}
+
+.sticky .main-nav li a:link,
+.sticky .main-nav li a:visited {
+    padding: 18px 0;
+    color: #555;
+}
+
+.sticky .logo-black { display: block; }
+.sticky .logo { display: none; }
+
+.sticky .main-nav { margin-top: 18px; }
 
 /* Features Section  */
 
